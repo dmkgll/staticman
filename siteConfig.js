@@ -127,7 +127,7 @@ const schema = {
   moderation: {
     doc: 'When set to `true`, a pull request with the data files will be created to allow site administrators to approve or reject an entry. Otherwise, entries will be pushed to `branch` immediately.',
     format: Boolean,
-    default: false
+    default: true
   },
   name: {
     doc: 'Human-friendly name of the property/website. This is used in notification emails.',
